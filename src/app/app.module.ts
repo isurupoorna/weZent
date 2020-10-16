@@ -13,12 +13,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
+import { NewDriversComponent } from './Driver/new-drivers/new-drivers.component';
+import { ManageDriversComponent } from './Driver/manage-drivers/manage-drivers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    NewDriversComponent,
+    ManageDriversComponent
   ],
   imports: [
     BrowserModule,
